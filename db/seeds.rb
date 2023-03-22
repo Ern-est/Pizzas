@@ -1,6 +1,5 @@
-require 'faker'
-5.times do
-# create some restaurants
+
+5.times do# create some restaurants
 restaurant = Restaurant.create(name: Faker::Restaurant.name, address: "298 Atlantic Ave, Brooklyn, NY 11201")
 restaurant = Restaurant.create(name: Faker::Restaurant.name, address: "69 W 55th St, New York, NY 10019")
 
